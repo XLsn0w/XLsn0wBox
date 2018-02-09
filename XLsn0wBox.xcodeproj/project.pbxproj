@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CD60B93A202D393B006E1CB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60B939202D393B006E1CB7 /* AppDelegate.m */; };
-		CD60B93D202D393B006E1CB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60B93C202D393B006E1CB7 /* ViewController.m */; };
 		CD60B940202D393B006E1CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD60B93E202D393B006E1CB7 /* Main.storyboard */; };
 		CD60B942202D393B006E1CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD60B941202D393B006E1CB7 /* Assets.xcassets */; };
 		CD60B945202D393B006E1CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD60B943202D393B006E1CB7 /* LaunchScreen.storyboard */; };
 		CD60B948202D393B006E1CB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60B947202D393B006E1CB7 /* main.m */; };
+		CDC88DDB202D754500E24F8F /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DC7202D754500E24F8F /* UIColor+Extension.m */; };
+		CDC88DDC202D754500E24F8F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DC9202D754500E24F8F /* UIView+Extension.m */; };
+		CDC88DDD202D754500E24F8F /* CAAnimation+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DCA202D754500E24F8F /* CAAnimation+Extension.m */; };
+		CDC88DDE202D754500E24F8F /* JMNavTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DCD202D754500E24F8F /* JMNavTestController.m */; };
+		CDC88DDF202D754500E24F8F /* AniTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DCE202D754500E24F8F /* AniTabBarController.m */; };
+		CDC88DE0202D754500E24F8F /* AniTabBarShared.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DD3202D754500E24F8F /* AniTabBarShared.m */; };
+		CDC88DE1202D754500E24F8F /* JMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DD7202D754500E24F8F /* JMTabBarButton.m */; };
+		CDC88DE2202D754500E24F8F /* AniTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DD8202D754500E24F8F /* AniTabBar.m */; };
+		CDC88DE3202D754500E24F8F /* JMBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DDA202D754500E24F8F /* JMBadgeValue.m */; };
+		CDC88DE5202D75D900E24F8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DE4202D75D900E24F8F /* ViewController.m */; };
+		CDC88DE8202DA15C00E24F8F /* NumberSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DE7202DA15C00E24F8F /* NumberSeparator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,34 @@
 		CD60B938202D393B006E1CB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD60B939202D393B006E1CB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD60B93B202D393B006E1CB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD60B93C202D393B006E1CB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD60B93F202D393B006E1CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD60B941202D393B006E1CB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD60B944202D393B006E1CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD60B946202D393B006E1CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD60B947202D393B006E1CB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC88DC4202D754500E24F8F /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		CDC88DC5202D754500E24F8F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CDC88DC6202D754500E24F8F /* CAAnimation+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Extension.h"; sourceTree = "<group>"; };
+		CDC88DC7202D754500E24F8F /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		CDC88DC8202D754500E24F8F /* ExtensionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionHeader.h; sourceTree = "<group>"; };
+		CDC88DC9202D754500E24F8F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CDC88DCA202D754500E24F8F /* CAAnimation+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+Extension.m"; sourceTree = "<group>"; };
+		CDC88DCB202D754500E24F8F /* AniTabBarControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniTabBarControllerHeader.h; sourceTree = "<group>"; };
+		CDC88DCD202D754500E24F8F /* JMNavTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNavTestController.m; sourceTree = "<group>"; };
+		CDC88DCE202D754500E24F8F /* AniTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniTabBarController.m; sourceTree = "<group>"; };
+		CDC88DCF202D754500E24F8F /* JMNavTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNavTestController.h; sourceTree = "<group>"; };
+		CDC88DD0202D754500E24F8F /* AniTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniTabBarController.h; sourceTree = "<group>"; };
+		CDC88DD2202D754500E24F8F /* AniTabBarShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniTabBarShared.h; sourceTree = "<group>"; };
+		CDC88DD3202D754500E24F8F /* AniTabBarShared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniTabBarShared.m; sourceTree = "<group>"; };
+		CDC88DD5202D754500E24F8F /* AniTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AniTabBar.h; sourceTree = "<group>"; };
+		CDC88DD6202D754500E24F8F /* JMBadgeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBadgeValue.h; sourceTree = "<group>"; };
+		CDC88DD7202D754500E24F8F /* JMTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabBarButton.m; sourceTree = "<group>"; };
+		CDC88DD8202D754500E24F8F /* AniTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AniTabBar.m; sourceTree = "<group>"; };
+		CDC88DD9202D754500E24F8F /* JMTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabBarButton.h; sourceTree = "<group>"; };
+		CDC88DDA202D754500E24F8F /* JMBadgeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBadgeValue.m; sourceTree = "<group>"; };
+		CDC88DE4202D75D900E24F8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDC88DE6202DA15C00E24F8F /* NumberSeparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberSeparator.h; sourceTree = "<group>"; };
+		CDC88DE7202DA15C00E24F8F /* NumberSeparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberSeparator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +74,7 @@
 		CD60B92C202D393B006E1CB7 = {
 			isa = PBXGroup;
 			children = (
+				CDC88DC2202D754500E24F8F /* AniTabBarController */,
 				CD60B937202D393B006E1CB7 /* XLsn0wBox */,
 				CD60B936202D393B006E1CB7 /* Products */,
 			);
@@ -61,7 +94,9 @@
 				CD60B938202D393B006E1CB7 /* AppDelegate.h */,
 				CD60B939202D393B006E1CB7 /* AppDelegate.m */,
 				CD60B93B202D393B006E1CB7 /* ViewController.h */,
-				CD60B93C202D393B006E1CB7 /* ViewController.m */,
+				CDC88DE4202D75D900E24F8F /* ViewController.m */,
+				CDC88DE6202DA15C00E24F8F /* NumberSeparator.h */,
+				CDC88DE7202DA15C00E24F8F /* NumberSeparator.m */,
 				CD60B93E202D393B006E1CB7 /* Main.storyboard */,
 				CD60B941202D393B006E1CB7 /* Assets.xcassets */,
 				CD60B943202D393B006E1CB7 /* LaunchScreen.storyboard */,
@@ -69,6 +104,65 @@
 				CD60B947202D393B006E1CB7 /* main.m */,
 			);
 			path = XLsn0wBox;
+			sourceTree = "<group>";
+		};
+		CDC88DC2202D754500E24F8F /* AniTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CDC88DCB202D754500E24F8F /* AniTabBarControllerHeader.h */,
+				CDC88DC3202D754500E24F8F /* Extension */,
+				CDC88DCC202D754500E24F8F /* Controller */,
+				CDC88DD1202D754500E24F8F /* Model */,
+				CDC88DD4202D754500E24F8F /* View */,
+			);
+			path = AniTabBarController;
+			sourceTree = "<group>";
+		};
+		CDC88DC3202D754500E24F8F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDC88DC8202D754500E24F8F /* ExtensionHeader.h */,
+				CDC88DC4202D754500E24F8F /* UIColor+Extension.h */,
+				CDC88DC7202D754500E24F8F /* UIColor+Extension.m */,
+				CDC88DC5202D754500E24F8F /* UIView+Extension.h */,
+				CDC88DC9202D754500E24F8F /* UIView+Extension.m */,
+				CDC88DC6202D754500E24F8F /* CAAnimation+Extension.h */,
+				CDC88DCA202D754500E24F8F /* CAAnimation+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CDC88DCC202D754500E24F8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDC88DCD202D754500E24F8F /* JMNavTestController.m */,
+				CDC88DCE202D754500E24F8F /* AniTabBarController.m */,
+				CDC88DCF202D754500E24F8F /* JMNavTestController.h */,
+				CDC88DD0202D754500E24F8F /* AniTabBarController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDC88DD1202D754500E24F8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDC88DD2202D754500E24F8F /* AniTabBarShared.h */,
+				CDC88DD3202D754500E24F8F /* AniTabBarShared.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDC88DD4202D754500E24F8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDC88DD5202D754500E24F8F /* AniTabBar.h */,
+				CDC88DD8202D754500E24F8F /* AniTabBar.m */,
+				CDC88DD6202D754500E24F8F /* JMBadgeValue.h */,
+				CDC88DDA202D754500E24F8F /* JMBadgeValue.m */,
+				CDC88DD9202D754500E24F8F /* JMTabBarButton.h */,
+				CDC88DD7202D754500E24F8F /* JMTabBarButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +236,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD60B93D202D393B006E1CB7 /* ViewController.m in Sources */,
+				CDC88DE8202DA15C00E24F8F /* NumberSeparator.m in Sources */,
+				CDC88DE0202D754500E24F8F /* AniTabBarShared.m in Sources */,
+				CDC88DDF202D754500E24F8F /* AniTabBarController.m in Sources */,
+				CDC88DDC202D754500E24F8F /* UIView+Extension.m in Sources */,
+				CDC88DE2202D754500E24F8F /* AniTabBar.m in Sources */,
+				CDC88DDD202D754500E24F8F /* CAAnimation+Extension.m in Sources */,
 				CD60B948202D393B006E1CB7 /* main.m in Sources */,
+				CDC88DE5202D75D900E24F8F /* ViewController.m in Sources */,
+				CDC88DE1202D754500E24F8F /* JMTabBarButton.m in Sources */,
+				CDC88DE3202D754500E24F8F /* JMBadgeValue.m in Sources */,
+				CDC88DDE202D754500E24F8F /* JMNavTestController.m in Sources */,
 				CD60B93A202D393B006E1CB7 /* AppDelegate.m in Sources */,
+				CDC88DDB202D754500E24F8F /* UIColor+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
