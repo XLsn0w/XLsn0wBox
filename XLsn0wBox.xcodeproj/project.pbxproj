@@ -12,6 +12,8 @@
 		CD60B942202D393B006E1CB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD60B941202D393B006E1CB7 /* Assets.xcassets */; };
 		CD60B945202D393B006E1CB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD60B943202D393B006E1CB7 /* LaunchScreen.storyboard */; };
 		CD60B948202D393B006E1CB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60B947202D393B006E1CB7 /* main.m */; };
+		CD65DAC720AEA603000994E5 /* DragButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD65DAC320AEA603000994E5 /* DragButton.m */; };
+		CD65DAC820AEA603000994E5 /* UIView+VIewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD65DAC620AEA603000994E5 /* UIView+VIewFrame.m */; };
 		CDC88DDB202D754500E24F8F /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DC7202D754500E24F8F /* UIColor+Extension.m */; };
 		CDC88DDC202D754500E24F8F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DC9202D754500E24F8F /* UIView+Extension.m */; };
 		CDC88DDD202D754500E24F8F /* CAAnimation+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DCA202D754500E24F8F /* CAAnimation+Extension.m */; };
@@ -35,6 +37,10 @@
 		CD60B944202D393B006E1CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD60B946202D393B006E1CB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD60B947202D393B006E1CB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD65DAC320AEA603000994E5 /* DragButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragButton.m; sourceTree = "<group>"; };
+		CD65DAC420AEA603000994E5 /* DragButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragButton.h; sourceTree = "<group>"; };
+		CD65DAC520AEA603000994E5 /* UIView+VIewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VIewFrame.h"; sourceTree = "<group>"; };
+		CD65DAC620AEA603000994E5 /* UIView+VIewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VIewFrame.m"; sourceTree = "<group>"; };
 		CDC88DC4202D754500E24F8F /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		CDC88DC5202D754500E24F8F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		CDC88DC6202D754500E24F8F /* CAAnimation+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Extension.h"; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 		CD60B92C202D393B006E1CB7 = {
 			isa = PBXGroup;
 			children = (
+				CD65DAC220AEA5ED000994E5 /* DragButton */,
 				CDC88DC2202D754500E24F8F /* AniTabBarController */,
 				CD60B937202D393B006E1CB7 /* XLsn0wBox */,
 				CD60B936202D393B006E1CB7 /* Products */,
@@ -104,6 +111,17 @@
 				CD60B947202D393B006E1CB7 /* main.m */,
 			);
 			path = XLsn0wBox;
+			sourceTree = "<group>";
+		};
+		CD65DAC220AEA5ED000994E5 /* DragButton */ = {
+			isa = PBXGroup;
+			children = (
+				CD65DAC420AEA603000994E5 /* DragButton.h */,
+				CD65DAC320AEA603000994E5 /* DragButton.m */,
+				CD65DAC520AEA603000994E5 /* UIView+VIewFrame.h */,
+				CD65DAC620AEA603000994E5 /* UIView+VIewFrame.m */,
+			);
+			path = DragButton;
 			sourceTree = "<group>";
 		};
 		CDC88DC2202D754500E24F8F /* AniTabBarController */ = {
@@ -237,10 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC88DE8202DA15C00E24F8F /* NumberSeparator.m in Sources */,
+				CD65DAC820AEA603000994E5 /* UIView+VIewFrame.m in Sources */,
 				CDC88DE0202D754500E24F8F /* AniTabBarShared.m in Sources */,
 				CDC88DDF202D754500E24F8F /* AniTabBarController.m in Sources */,
 				CDC88DDC202D754500E24F8F /* UIView+Extension.m in Sources */,
 				CDC88DE2202D754500E24F8F /* AniTabBar.m in Sources */,
+				CD65DAC720AEA603000994E5 /* DragButton.m in Sources */,
 				CDC88DDD202D754500E24F8F /* CAAnimation+Extension.m in Sources */,
 				CD60B948202D393B006E1CB7 /* main.m in Sources */,
 				CDC88DE5202D75D900E24F8F /* ViewController.m in Sources */,
