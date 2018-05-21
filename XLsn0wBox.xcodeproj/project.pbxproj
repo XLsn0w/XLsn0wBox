@@ -14,6 +14,11 @@
 		CD60B948202D393B006E1CB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60B947202D393B006E1CB7 /* main.m */; };
 		CD65DAC720AEA603000994E5 /* DragButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD65DAC320AEA603000994E5 /* DragButton.m */; };
 		CD65DAC820AEA603000994E5 /* UIView+VIewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD65DAC620AEA603000994E5 /* UIView+VIewFrame.m */; };
+		CDB9A47320B2CC5800933B84 /* XLsn0wMapGeoCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9A47220B2CC5800933B84 /* XLsn0wMapGeoCoder.m */; };
+		CDB9A47D20B2CC5D00933B84 /* UIImageView+XLsn0wWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9A47620B2CC5D00933B84 /* UIImageView+XLsn0wWebImage.m */; };
+		CDB9A47E20B2CC5D00933B84 /* XLsn0wImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9A47720B2CC5D00933B84 /* XLsn0wImageCache.m */; };
+		CDB9A47F20B2CC5D00933B84 /* XLsn0wFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9A47920B2CC5D00933B84 /* XLsn0wFileHandle.m */; };
+		CDB9A48020B2CC5D00933B84 /* XLsn0wFileDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB9A47C20B2CC5D00933B84 /* XLsn0wFileDownload.m */; };
 		CDC88DDB202D754500E24F8F /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DC7202D754500E24F8F /* UIColor+Extension.m */; };
 		CDC88DDC202D754500E24F8F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DC9202D754500E24F8F /* UIView+Extension.m */; };
 		CDC88DDD202D754500E24F8F /* CAAnimation+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC88DCA202D754500E24F8F /* CAAnimation+Extension.m */; };
@@ -41,6 +46,16 @@
 		CD65DAC420AEA603000994E5 /* DragButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragButton.h; sourceTree = "<group>"; };
 		CD65DAC520AEA603000994E5 /* UIView+VIewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VIewFrame.h"; sourceTree = "<group>"; };
 		CD65DAC620AEA603000994E5 /* UIView+VIewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VIewFrame.m"; sourceTree = "<group>"; };
+		CDB9A47120B2CC5800933B84 /* XLsn0wMapGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wMapGeoCoder.h; sourceTree = "<group>"; };
+		CDB9A47220B2CC5800933B84 /* XLsn0wMapGeoCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wMapGeoCoder.m; sourceTree = "<group>"; };
+		CDB9A47520B2CC5D00933B84 /* XLsn0wFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wFileHandle.h; sourceTree = "<group>"; };
+		CDB9A47620B2CC5D00933B84 /* UIImageView+XLsn0wWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XLsn0wWebImage.m"; sourceTree = "<group>"; };
+		CDB9A47720B2CC5D00933B84 /* XLsn0wImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImageCache.m; sourceTree = "<group>"; };
+		CDB9A47820B2CC5D00933B84 /* XLsn0wFileDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wFileDownload.h; sourceTree = "<group>"; };
+		CDB9A47920B2CC5D00933B84 /* XLsn0wFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wFileHandle.m; sourceTree = "<group>"; };
+		CDB9A47A20B2CC5D00933B84 /* UIImageView+XLsn0wWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XLsn0wWebImage.h"; sourceTree = "<group>"; };
+		CDB9A47B20B2CC5D00933B84 /* XLsn0wImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageCache.h; sourceTree = "<group>"; };
+		CDB9A47C20B2CC5D00933B84 /* XLsn0wFileDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wFileDownload.m; sourceTree = "<group>"; };
 		CDC88DC4202D754500E24F8F /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		CDC88DC5202D754500E24F8F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		CDC88DC6202D754500E24F8F /* CAAnimation+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Extension.h"; sourceTree = "<group>"; };
@@ -80,6 +95,8 @@
 		CD60B92C202D393B006E1CB7 = {
 			isa = PBXGroup;
 			children = (
+				CDB9A47420B2CC5D00933B84 /* XLsn0wImageCache */,
+				CDB9A47020B2CC5800933B84 /* XLsn0wMapGeoCoder */,
 				CD65DAC220AEA5ED000994E5 /* DragButton */,
 				CDC88DC2202D754500E24F8F /* AniTabBarController */,
 				CD60B937202D393B006E1CB7 /* XLsn0wBox */,
@@ -122,6 +139,30 @@
 				CD65DAC620AEA603000994E5 /* UIView+VIewFrame.m */,
 			);
 			path = DragButton;
+			sourceTree = "<group>";
+		};
+		CDB9A47020B2CC5800933B84 /* XLsn0wMapGeoCoder */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9A47120B2CC5800933B84 /* XLsn0wMapGeoCoder.h */,
+				CDB9A47220B2CC5800933B84 /* XLsn0wMapGeoCoder.m */,
+			);
+			path = XLsn0wMapGeoCoder;
+			sourceTree = "<group>";
+		};
+		CDB9A47420B2CC5D00933B84 /* XLsn0wImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9A47520B2CC5D00933B84 /* XLsn0wFileHandle.h */,
+				CDB9A47620B2CC5D00933B84 /* UIImageView+XLsn0wWebImage.m */,
+				CDB9A47720B2CC5D00933B84 /* XLsn0wImageCache.m */,
+				CDB9A47820B2CC5D00933B84 /* XLsn0wFileDownload.h */,
+				CDB9A47920B2CC5D00933B84 /* XLsn0wFileHandle.m */,
+				CDB9A47A20B2CC5D00933B84 /* UIImageView+XLsn0wWebImage.h */,
+				CDB9A47B20B2CC5D00933B84 /* XLsn0wImageCache.h */,
+				CDB9A47C20B2CC5D00933B84 /* XLsn0wFileDownload.m */,
+			);
+			path = XLsn0wImageCache;
 			sourceTree = "<group>";
 		};
 		CDC88DC2202D754500E24F8F /* AniTabBarController */ = {
@@ -254,7 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB9A47E20B2CC5D00933B84 /* XLsn0wImageCache.m in Sources */,
+				CDB9A47320B2CC5800933B84 /* XLsn0wMapGeoCoder.m in Sources */,
 				CDC88DE8202DA15C00E24F8F /* NumberSeparator.m in Sources */,
+				CDB9A47F20B2CC5D00933B84 /* XLsn0wFileHandle.m in Sources */,
 				CD65DAC820AEA603000994E5 /* UIView+VIewFrame.m in Sources */,
 				CDC88DE0202D754500E24F8F /* AniTabBarShared.m in Sources */,
 				CDC88DDF202D754500E24F8F /* AniTabBarController.m in Sources */,
@@ -262,9 +306,11 @@
 				CDC88DE2202D754500E24F8F /* AniTabBar.m in Sources */,
 				CD65DAC720AEA603000994E5 /* DragButton.m in Sources */,
 				CDC88DDD202D754500E24F8F /* CAAnimation+Extension.m in Sources */,
+				CDB9A48020B2CC5D00933B84 /* XLsn0wFileDownload.m in Sources */,
 				CD60B948202D393B006E1CB7 /* main.m in Sources */,
 				CDC88DE5202D75D900E24F8F /* ViewController.m in Sources */,
 				CDC88DE1202D754500E24F8F /* JMTabBarButton.m in Sources */,
+				CDB9A47D20B2CC5D00933B84 /* UIImageView+XLsn0wWebImage.m in Sources */,
 				CDC88DE3202D754500E24F8F /* JMBadgeValue.m in Sources */,
 				CDC88DDE202D754500E24F8F /* JMNavTestController.m in Sources */,
 				CD60B93A202D393B006E1CB7 /* AppDelegate.m in Sources */,
